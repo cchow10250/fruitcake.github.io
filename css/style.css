@@ -28,32 +28,31 @@ html, body{
 .landing{
     display:flex;
     height:100vh;
-    justify-content: space-around;
+    justify-content: center;
     background:white;
 }
 
 .intro{
     align-self: center;
-    margin-left: 50px;
     position: relative;
 }
 
 .intro_content{
     z-index: 1;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    position: center;
+    top: 60%;
     width: 400px;
 }
 
 .intro h1{
     font-size: 64px;
     font-weight: bold;
-    position: relative;
+    position: relative; 
     cursor: default;
     color: white;
     animation: slideUp 1s cubic-bezier(0.65, 0, 0.35, 1) both;
     visibility: hidden;
+    text-align: center;
 }
 
 .intro h2{
@@ -64,6 +63,7 @@ html, body{
     animation: slideUp 1s cubic-bezier(0.65, 0, 0.35, 1) both;
     animation-delay: 1.2s;
     visibility: hidden;
+    text-align: center;
 }
 
 .landing img{
@@ -74,18 +74,19 @@ html, body{
 
 .view_button{
     border: 1px solid white;
-    width: 132px;
+    width: 185px;
     margin-top: 30px;
     transition: .3s ease;
     animation: slideUp 1s cubic-bezier(0.65, 0, 0.35, 1) both;
     animation-delay: 1.3s;
     visibility: hidden;
+    margin-left: 101px;
 }
 
 .view_button a{
     text-decoration: none;
     display: inline-block;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 10px 10px 30px;
     color: white;
     background-color: transparent;
     font-size: 16px;
@@ -259,8 +260,6 @@ nav li .active{
 .about img{
     margin-top: 100px;
     width: 100%;
-    max-width: 900px;
-    max-height: 675px;
 }
 
 /********************************** Portfolio Hub **********************************/
@@ -528,10 +527,6 @@ nav li .active{
 
 .gallery_content a {
     text-decoration: none;
-}
-
-.gallery_content img {
-    border: 1px inset black;
 }
 
 /********************************** Projects (Credits to: Friends Desmond and Joshua) **********************************/
@@ -847,7 +842,7 @@ nav li .active{
 }
 
 .card1 .project_pic {
-    background-image: url("https://images.unsplash.com/photo-1554298819-74ec8c6acac6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1651&q=80");
+    background-image: url("../images/anipc.png");
 }
 
 .card2 .project_pic {
@@ -992,12 +987,11 @@ nav li .active{
 
     .intro_content {
         text-align: center;
-        margin-left: -225px;
     }
     
     .view_button{
         margin-top: 100px;
-        margin-left: 130px;
+        margin-left: 100px;
     }
     
     .fab {
@@ -1105,9 +1099,6 @@ nav li .active{
 }
 
 @media (min-width: 750.01px) and (max-width: 1200px) {
-    .intro_content {
-        width:300px;
-    }
 }
 
 @media (min-width: 576px) and (max-width: 1400px) {
