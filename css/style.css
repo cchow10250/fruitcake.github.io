@@ -108,10 +108,10 @@ html, body{
 }
 
 .gradient { /* Credits: https://www.gradient-animator.com/ */
-    background: linear-gradient(128deg, #0992d1, #7709d1, #0992d1);
+    background: linear-gradient(128deg, #18adf1, #ff6ec7, #bf00ff, #ff5733);
     background-size: 1000% 1000%;
 
-    animation: gradientBackground 45s ease infinite;
+    animation: gradientBackground 60s ease infinite;
 }
 
 /********************************** Navigation Bar **********************************/
@@ -260,6 +260,10 @@ nav li .active{
 .about img{
     margin-top: 100px;
     width: 100%;
+}
+
+.about a{
+    text-decoration: none;
 }
 
 /********************************** Portfolio Hub **********************************/
