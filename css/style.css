@@ -99,8 +99,8 @@ html, body{
 }
 
 .view_button:hover{
-    background-color: rgba(0, 101, 253, 0.596);
-    border: 1px solid #003983;
+    background-color: #4587c7;
+    border: 1px solid #4587c7;
 }
 
 .view_button:hover svg{
@@ -136,12 +136,12 @@ nav li a{
 }
 
 nav li a:hover{
-    color: #0992d1!important;
+    color: #42b7e9!important;
     transition: .5s ease;
 }
 
 nav li .active{
-    color: #0992d1!important;
+    color: #42b7e9!important;
     transition: .5s ease;
 }
 
@@ -158,7 +158,7 @@ nav li .active{
 }
 
 .rightnav a:hover{
-    color: #0992d1;
+    color: #42b7e9;
     transition: .5s ease;
 }
 
@@ -220,7 +220,7 @@ nav li .active{
 
 
 .about_content h1{
-    color: #0992d1;
+    color: #42b7e9;
     margin-top: 100px;
     margin-bottom: 16px;
     font-size: 48px;
@@ -252,8 +252,8 @@ nav li .active{
 }
 
 .about_content .resume:hover{
-    background-color: rgba(0, 101, 253, 0.212);
-    border: 1px solid #003983;
+    background-color: rgba(255, 57, 212, 0.212);
+    border: 1px solid #000000;
     transition: 0.5s ease;
 }
 
@@ -373,7 +373,7 @@ nav li .active{
 }
 
 .fa-linkedin-in:hover, .fa-instagram:hover, .fa-twitter:hover {
-    color: #0992d1;
+    color: #42b7e9;
 }
 
 .footer_email{
@@ -503,7 +503,20 @@ nav li .active{
     position: relative;
     font-family: 'Raleway', sans-serif;
     padding-top: 100px;
-    padding-bottom: 60px;
+}
+
+.gallery_header{
+    display: block;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 100px;
+}
+
+.gallery_header h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 .gallery_head h1{
@@ -526,7 +539,7 @@ nav li .active{
     padding-bottom: 120px;
     text-decoration: none;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 100px;   
 }
 
 .gallery_content a {
